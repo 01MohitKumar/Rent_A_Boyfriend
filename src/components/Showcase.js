@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import { Container } from "react-bootstrap";
-import pureLove from "../store/svg/pureLove.svg"
+import pureLove from "../store/svg/pureLove.svg";
 
 const Showcase = () => {
   return (
@@ -12,6 +12,11 @@ const Showcase = () => {
               <h1>
                 Rent a <span className="text-warning">Boyfriend</span>
               </h1>
+              <img
+                className="img-fluid w-75 mx-auto d-block d-sm-none"
+                src={pureLove}
+                alt="pure friends"
+              />
               <p className="lead my-4">
                 Tired of watching your friends making plans with their
                 boyfriends, don't worry we are here. Rent a boyfriend at your
@@ -25,7 +30,11 @@ const Showcase = () => {
                 Start Renting
               </button>
             </div>
-            <img className="img-fluid w-50 d-none d-sm-block" src={pureLove} alt="pure friends" />
+            <img
+              className="img-fluid w-50 d-none d-sm-block"
+              src={pureLove}
+              alt="pure friends"
+            />
           </div>
         </Container>
       </section>

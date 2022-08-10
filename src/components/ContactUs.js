@@ -3,10 +3,10 @@ import { FaTwitter, FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
-    <section id="contactUs" className="bg-primary p-5">
+    <section id="contactUs" className="bg-light p-5">
       <Container>
-        <h2 className="text-center text-white">Our Team</h2>
-        <p className="lead text-center text-white mb-5">
+        <h2 className="text-center text-dark">Our Team</h2>
+        <p className="lead text-center text-dark mb-5">
           Our instructors all have 5+ years working as a wed developer in the
           industry.
         </p>

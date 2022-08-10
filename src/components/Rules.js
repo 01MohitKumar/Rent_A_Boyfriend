@@ -14,11 +14,12 @@ const Rules = () => {
                 Don't show our service provider to your relatives as your real
                 boyfriend.
               </li>
-              <li>Don't make any sexual contact with our service providers.</li>
               <li>
                 50% of the fees must be paid before service and 50% after
                 service.
               </li>
+              <li>Don't make any sexual contact with our service providers.</li>
+              <li>All the expenses must be bear by you.</li>
               <li>You must be above 18.</li>
             </ul>
             <p>For more datails direct call us on : xxxxxxxxx </p>
