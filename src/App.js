@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import classes from "./App.module.css";
+import Blocks from "./components/Blocks";
+import City from "./components/City";
+import NavigationBar from "./components/NavigationBar";
+import Security from "./components/Security";
+import Showcase from "./components/Showcase";
+import Rules from './components/Rules'
+import Footer from "./components/Footer";
+import ContactUs from "./components/ContactUs";
+import Questions from "./components/Questions";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavigationBar />
+      <Showcase />
+      <City />
+      <Blocks />
+      <Security />
+      <Rules />
+      <ContactUs />
+      <Questions />
+      <Footer /> 
+    </>
   );
-}
+};
 
 export default App;
+
+/*
+Tired of watching your friends making plans with their boyfriends.
+Don't worry we are here.
+Rent a boyfriend at your local with reasonable price
+
+*/

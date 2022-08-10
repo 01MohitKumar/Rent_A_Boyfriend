@@ -1,0 +1,18 @@
+.card {
+  /* width: 100%; */
+  transition: ease-in-out .3s;
+}
+
+.img {
+  object-fit: cover;
+  /* object-position: 50% 30%; */
+}
+
+
+
+
+@media (min-width: 768px) {
+  .card:hover{
+    transform: scale(1.2);
+  }
+}
